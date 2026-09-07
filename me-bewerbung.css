@@ -330,6 +330,19 @@
 }
 
 @media (max-width: 992px) {
+  .BW-PositionsScreen > div:first-child {
+    margin-top: 24px !important;
+  }
+
+  .LG-IconButton.tertiary.ic-orderedlist {
+    width: 46px !important;
+    height: 46px !important;
+    box-sizing: border-box !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
   .B3-Web-Responsive-Row {
     display: block !important;
     padding: 12px 16px !important;

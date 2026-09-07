@@ -314,8 +314,8 @@
   height: 2000px !important;
 }
 
-.GK52GLDCAK, .GK52GLDCEC, .GK52GLDCPJ, .GK52GLDCNJ {
-  display:none !important;
+.GK52GLDCAK{
+  display: none !important;
 }
 
 .LG-DataTableCell > div[__gwt_cell] {

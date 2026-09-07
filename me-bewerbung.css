@@ -315,7 +315,7 @@
 }
 
 .GK52GLDCAK, .GK52GLDCEC {
-  display:none;
+  display:none !important;
 }
 
 .LG-DataTableCell > div[__gwt_cell] {

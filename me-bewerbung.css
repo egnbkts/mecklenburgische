@@ -308,6 +308,60 @@
   font-weight: 700 !important;
 }
 
+.LG-DataTableCell > div[__gwt_cell] {
+  min-height: 80px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+}
+
+.Bewerber-Web-Common-Heading,
+.Bewerber-Web-Common-Info {
+  display: none !important;
+}
+
+.gwt-DataPager {
+  background-color: #ebeeed !important;
+  padding: 12px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 700px) {
+  .LG-DataTableEvenRow > td,
+  .LG-DataTableOddRow > td {
+    display: flex !important;
+    justify-content: flex-start !important;
+    padding: 8px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    border: none !important;
+    border-bottom: none !important;
+  }
+
+  .LG-DataTableCell > div[__gwt_cell] {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    display: block !important;
+    white-space: normal !important;
+    padding: 0 !important;
+  }
+
+  .LG-DataTableEvenRow,
+  .LG-DataTableOddRow {
+    border-bottom: 1px solid #e0e0e0 !important;
+    padding-bottom: 12px !important;
+  }
+}
+
 /* .LG-DataTableWidget,
 .LG-DataTableWidget > div:nth-child(3) {
   height: 3000px !important;
@@ -323,15 +377,6 @@
   width: 0 !important;
   height: 0 !important;
 } */
-
-.LG-DataTableCell > div[__gwt_cell] {
-  min-height: 80px !important;
-  box-sizing: border-box !important;
-  display: flex !important;
-  align-items: center !important;
-  font-size: 16px !important;
-  line-height: 1.2 !important;
-}
 
 /* .LG-CollapsibleScrollDataTable-MainTable {
   border-collapse: separate !important;
@@ -370,48 +415,3 @@
   z-index: -1;
   pointer-events: none;
 } */
-
-.Bewerber-Web-Common-Heading,
-.Bewerber-Web-Common-Info {
-  display: none !important;
-}
-
-.gwt-DataPager {
-  background-color: #ebeeed !important;
-  padding: 12px;
-  margin-top: 24px;
-  margin-bottom: 48px;
-}
-
-@media (max-width: 700px) {
-  .LG-DataTableWidget {
-    overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .LG-CollapsibleScrollDataTable-MainTable,
-  .LG-CollapsibleScrollDataTable-MainTable colgroup col,
-  table[style*="table-layout: fixed"] {
-    min-width: 650px !important;
-  }
-
-  .LG-DataTableCell > div[__gwt_cell] {
-    min-height: 60px !important;
-    font-size: 14px !important;
-    padding: 0 8px !important;
-  }
-
-  .LG-DataTableHeader {
-    font-size: 13px !important;
-    padding: 8px 8px !important;
-  }
-
-  .LG-CollapsibleScrollDataTable-MainTable {
-    border-spacing: 0 16px !important;
-  }
-
-  .LG-DataTableEvenRow > td.LG-DataTableFirstColumn::before,
-  .LG-DataTableOddRow > td.LG-DataTableFirstColumn::before {
-    box-shadow: 0px 1px 6px -3px rgba(0, 0, 0, 0.3);
-  }
-}

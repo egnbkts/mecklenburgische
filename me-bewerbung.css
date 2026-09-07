@@ -194,3 +194,186 @@
 .LG-Button.primary .html-face span {
   color: inherit !important;
 }
+
+.BW-Header {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 24px 0 !important;
+}
+
+.LG-Button.tertiary,
+.LG-IconButton.tertiary.ic-search {
+  background: #ffb800 !important;
+  color: #000000 !important;
+  border-radius: 6px !important;
+  border: none !important;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+  cursor: pointer;
+  padding: 12px 12px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: unset !important;
+  width: fit-content;
+  height: 46px !important;
+}
+
+.LG-Button.tertiary[aria-hidden="true"] {
+  display: none !important;
+}
+
+.LG-Button.tertiary .html-face {
+  position: static !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: auto !important;
+  height: auto !important;
+}
+
+.LG-Button.tertiary:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+}
+
+.LG-Button.tertiary .html-face,
+.LG-Button.tertiary .html-face span {
+  color: inherit !important;
+  font-weight: inherit !important;
+}
+
+.LG-IconButton.tertiary {
+  background: #ffb800 !important;
+  color: #000000 !important;
+  border-radius: 6px !important;
+  border: none !important;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+  cursor: pointer;
+  padding: 12px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: auto !important;
+  height: auto !important;
+}
+
+.LG-IconButton.tertiary:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+.LG-IconButton.tertiary.ic-search,
+.LG-IconButton.tertiary.ic-search.ic-small,
+.LG-IconButton.tertiary.ic-search.ic-small.ic-nopadding,
+.LG-IconButton.tertiary.ic-search.ic-small.ic-nopadding.ic-link-hover {
+  background: #ffb800 !important;
+  background-image: none !important;
+  color: #000000 !important;
+  border-radius: 6px !important;
+  border: none !important;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+  cursor: pointer;
+  padding: 12px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: auto !important;
+  height: 46px !important;
+  width: 46px !important;
+  float: right;
+}
+
+.LG-IconButton.tertiary.ic-search:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+.LG-DataTableHeader,
+.LG-DataTableHeader.LG-DataTableFirstColumnHeader,
+.LG-DataTableHeader.LG-DataTableSortableHeader,
+.LG-DataTableHeader.LG-DataTableLastColumnHeader {
+  background-color: #ebeeed !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.LG-DataTableWidget,
+.LG-DataTableWidget > div:nth-child(3),
+.LG-DataTableWidget .GK52GLDCJJ {
+  height: 2000px !important;
+}
+
+.LG-DataTableCell > div[__gwt_cell] {
+  height: 240px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+}
+
+.LG-CollapsibleScrollDataTable-MainTable {
+  border-collapse: separate !important;
+  border-spacing: 0 24px !important;
+  width: calc(100% - 4px) !important;
+  margin-left: 2px !important;
+}
+
+.LG-DataTableEvenRow > td,
+.LG-DataTableOddRow > td {
+  border: none !important;
+  border-bottom: none !important;
+}
+
+.LG-DataTableEvenRow > td.LG-DataTableLastColumn,
+.LG-DataTableOddRow > td.LG-DataTableLastColumn {
+  border-top-right-radius: 24px !important;
+}
+
+.LG-DataTableEvenRow > td.LG-DataTableFirstColumn,
+.LG-DataTableOddRow > td.LG-DataTableFirstColumn {
+  border-bottom-left-radius: 24px !important;
+}
+
+.LG-DataTableEvenRow,
+.LG-DataTableOddRow {
+  position: relative !important;
+}
+
+.LG-DataTableEvenRow > td.LG-DataTableFirstColumn::before,
+.LG-DataTableOddRow > td.LG-DataTableFirstColumn::before {
+  content: "";
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 2px 15px -7px rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+.Bewerber-Web-Common-Heading, .Bewerber-Web-Common-Info {
+  display: none !important;
+}
+
+.gwt-DataPager{
+  background-color: #ebeeed !important;
+  padding: 12px;
+  margin-top:24px;
+  margin-bottom:48px;
+}

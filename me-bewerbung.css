@@ -1,21 +1,21 @@
-#LGDecoratedPopupPanel .LG-InputLabel {
+.BW-Login-Popup .LG-InputLabel {
   float: none !important;
   display: block !important;
   width: 100% !important;
   clear: both !important;
 }
 
-#LGDecoratedPopupPanel .LG-TextBox {
+.BW-Login-Popup .LG-TextBox {
   float: none !important;
   clear: both !important;
 }
 
-#LGDecoratedPopupPanel table.LG-FormBox tr {
+.BW-Login-Popup table.LG-FormBox tr {
   display: block !important;
   width: 100% !important;
 }
 
-#LGDecoratedPopupPanel table.LG-FormBox td {
+.BW-Login-Popup table.LG-FormBox td {
   display: block !important;
   width: 100% !important;
 }

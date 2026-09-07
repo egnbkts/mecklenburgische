@@ -308,13 +308,12 @@
   font-weight: 700 !important;
 }
 
-.LG-DataTableWidget,
-.LG-DataTableWidget > div:nth-child(3),
-.LG-DataTableWidget {
-  height: 2000px !important;
-}
+/* .LG-DataTableWidget,
+.LG-DataTableWidget > div:nth-child(3) {
+  height: 3000px !important;
+} */
 
-.GK52GLDCEC {
+/* .GK52GLDCEC {
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
 }
@@ -323,10 +322,10 @@
   display: none !important;
   width: 0 !important;
   height: 0 !important;
-}
+} */
 
 .LG-DataTableCell > div[__gwt_cell] {
-  height: 240px !important;
+  min-height: 80px !important;
   box-sizing: border-box !important;
   display: flex !important;
   align-items: center !important;
@@ -334,20 +333,15 @@
   line-height: 1.2 !important;
 }
 
-.LG-CollapsibleScrollDataTable-MainTable {
+/* .LG-CollapsibleScrollDataTable-MainTable {
   border-collapse: separate !important;
   border-spacing: 0 24px !important;
   width: calc(100% - 4px) !important;
   margin-left: 2px !important;
-}
+  border:1px solid grey;
+} */
 
-.LG-DataTableEvenRow > td,
-.LG-DataTableOddRow > td {
-  border: none !important;
-  border-bottom: none !important;
-}
-
-.LG-DataTableEvenRow > td.LG-DataTableLastColumn,
+/* .LG-DataTableEvenRow > td.LG-DataTableLastColumn,
 .LG-DataTableOddRow > td.LG-DataTableLastColumn {
   border-top-right-radius: 24px !important;
 }
@@ -355,14 +349,14 @@
 .LG-DataTableEvenRow > td.LG-DataTableFirstColumn,
 .LG-DataTableOddRow > td.LG-DataTableFirstColumn {
   border-bottom-left-radius: 24px !important;
-}
+} */
 
-.LG-DataTableEvenRow,
+/* .LG-DataTableEvenRow,
 .LG-DataTableOddRow {
   position: relative !important;
-}
+} */
 
-.LG-DataTableEvenRow > td.LG-DataTableFirstColumn::before,
+/* .LG-DataTableEvenRow > td.LG-DataTableFirstColumn::before,
 .LG-DataTableOddRow > td.LG-DataTableFirstColumn::before {
   content: "";
   position: absolute !important;
@@ -375,16 +369,16 @@
   border-bottom-left-radius: 24px;
   z-index: -1;
   pointer-events: none;
-}
+} */
 
-
-.Bewerber-Web-Common-Heading, .Bewerber-Web-Common-Info {
+.Bewerber-Web-Common-Heading,
+.Bewerber-Web-Common-Info {
   display: none !important;
 }
 
-.gwt-DataPager{
+.gwt-DataPager {
   background-color: #ebeeed !important;
   padding: 12px;
-  margin-top:24px;
-  margin-bottom:48px;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }

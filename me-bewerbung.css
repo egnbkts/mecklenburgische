@@ -329,7 +329,7 @@
   margin-bottom: 48px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 962px) {
   .B3-Web-Responsive-Row {
     display: block !important;
     padding: 12px 16px !important;

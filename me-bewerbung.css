@@ -1,12 +1,23 @@
-.LG-InputLabel.labelPosition-top {
-  display: block !important;
-  margin-bottom: 4px !important;
-}
-
-.LG-TextBox.required {
+#LGDecoratedPopupPanel .LG-InputLabel {
+  float: none !important;
   display: block !important;
   width: 100% !important;
-  box-sizing: border-box !important;
+  clear: both !important;
+}
+
+#LGDecoratedPopupPanel .LG-TextBox {
+  float: none !important;
+  clear: both !important;
+}
+
+#LGDecoratedPopupPanel table.LG-FormBox tr {
+  display: block !important;
+  width: 100% !important;
+}
+
+#LGDecoratedPopupPanel table.LG-FormBox td {
+  display: block !important;
+  width: 100% !important;
 }
 
 .BW-MainPanel {

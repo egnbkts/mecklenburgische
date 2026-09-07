@@ -367,6 +367,17 @@
     align-items: center;
     gap: 6px;
     height: auto !important;
+    border: none !important;
+    border-bottom: none !important;
+  }
+
+  .LG-SearchBox-Wrapper .LG-SearchBox {
+    height: 42px !important;
+    box-sizing: border-box !important;
+  }
+
+  .LG-SearchBox-Wrapper {
+    height: 42px !important;
   }
 
   .Bewerber-Web-Responsive-Table {
@@ -378,6 +389,11 @@
     display: block !important;
     height: auto !important;
     padding: 0 !important;
+  }
+
+  .BW-PositionsScreen > div > div[style*="padding-left: 5px"] {
+    margin-right: 12px !important;
+    display: inline-block !important;
   }
 }
 

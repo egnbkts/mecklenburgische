@@ -335,6 +335,8 @@
     padding: 12px 16px !important;
     border-bottom: 1px solid #e0e0e0 !important;
     box-sizing: border-box !important;
+       min-height: 200px !important;
+    height: auto !important;
   }
 
   .B3-Web-Responsive-Row .LG-FormBox {

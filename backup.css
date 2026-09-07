@@ -1,0 +1,196 @@
+.BW-MainPanel {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.LG-ScrollPanel-Content {
+  width: 100% !important;
+  text-align: initial;
+}
+
+@media (max-width: 850px) {
+  .BW-MainPanel {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}
+
+.LG-RichTextContent h1 {
+  text-align: center;
+  margin: 0 !important;
+}
+
+.LG-RichTextContent h1 img.fr-fic {
+  border-radius: 0 40px 0 40px !important;
+  overflow: hidden;
+  display: block;
+}
+
+.LG-BoxPanelRow-Column {
+  display: block !important;
+  width: 100% !important;
+  margin-right: 0 !important;
+}
+
+.LG-FormBox {
+  display: block !important;
+  width: 100% !important;
+}
+.LG-FormBox colgroup,
+.LG-FormBox col {
+  display: none !important;
+}
+
+.LG-FormBox > tbody {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 32px;
+}
+
+.LG-FormBox > tbody > tr {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.LG-FormBox > tbody > tr > td {
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+}
+
+.LG-FormBox tr:has(.LG-username-lab),
+.LG-FormBox tr:has(label[title="Bewerbungsquelle"]) {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  .LG-FormBox > tbody {
+    grid-template-columns: 1fr;
+  }
+}
+
+.LG-FormBox .LG-InputLabel {
+  display: block !important;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.LG-FormBox .LG-TextBox,
+.LG-FormBox .LG-TextBox.required,
+.LG-FormBox .gwt-DateBox,
+.LG-FormBox .gwt-combo-box,
+.LG-FormBox .gwt-combo-box.required {
+  background: #ffffff !important;
+  border: 2px solid #000000 !important;
+  border-radius: 10px !important;
+  padding: 10px 14px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  font-size: 15px !important;
+  height: 54px;
+}
+
+.gwt-combo-box-input {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.LG-FormBox .gwt-combo-box table {
+  border: none !important;
+  width: 100% !important;
+}
+
+.LG-FormBox .LG-FileController,
+.LG-FormBox .LG-FileController-Edit,
+.LG-FormBox .LG-FileController-MainPanel {
+  float: none !important;
+  overflow: visible;
+}
+
+.LG-FormBox .LG-FileController-Edit {
+  background: #ffffff !important;
+  border: 2px solid #000000 !important;
+  border-radius: 10px !important;
+  padding: 10px 14px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-height: 20px;
+  display: flex !important;
+  align-items: center;
+  cursor: pointer;
+}
+
+.LG-FormBox .LG-FileController-Text:empty::before {
+  content: "Datei auswählen...";
+  color: #888;
+}
+
+.LG-FormBox .LG-FileController-MainPanel {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.LG-FormBox .LG-FileController,
+.LG-FormBox .LG-FileController-Edit,
+.LG-FormBox .LG-FileController-Edit-uploader_mit_dz,
+.LG-FormBox .LG-FileController-Edit-displayer {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.LG-FileController:has(.LG-FileController-ContainingFile)
+  .LG-FileController-Edit-uploader_mit_dz {
+  display: none !important;
+}
+
+.dragdrop-handle {
+  display: none !important;
+}
+
+.LG-Button.primary {
+  background: #ffb800 !important;
+  color: #000000 !important;
+  border-radius: 6px !important;
+  border: none !important;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+  cursor: pointer;
+  padding: 12px 12px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: unset !important;
+  height: auto !important;
+  width: fit-content;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.LG-Button.primary .html-face {
+  position: static !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: auto !important;
+  height: auto !important;
+}
+
+.LG-Button.primary:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+}
+
+.LG-Button.primary .html-face,
+.LG-Button.primary .html-face span {
+  color: inherit !important;
+}

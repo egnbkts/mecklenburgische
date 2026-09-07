@@ -310,8 +310,12 @@
 
 .LG-DataTableWidget,
 .LG-DataTableWidget > div:nth-child(3),
-.LG-DataTableWidget .GK52GLDCJJ {
+.LG-DataTableWidget {
   height: 2000px !important;
+}
+
+.GK52GLDCAK, .GK52GLDCEC {
+  display:none;
 }
 
 .LG-DataTableCell > div[__gwt_cell] {

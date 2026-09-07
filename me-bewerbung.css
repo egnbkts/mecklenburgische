@@ -328,7 +328,6 @@
   margin-top: 24px;
   margin-bottom: 48px;
 }
-
 @media (max-width: 992px) {
   .BW-PositionsScreen > div:first-child {
     margin-top: 24px !important;
@@ -402,11 +401,23 @@
   .LG-SearchBox-Wrapper {
     height: 42px !important;
     margin-top: 24px !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
   }
 
   .LG-SearchBox-Wrapper .LG-SearchBox {
     height: 42px !important;
     box-sizing: border-box !important;
+    padding-left: 36px !important;
+    background-position: 10px center !important;
+  }
+
+  .LG-SearchBox-Wrapper .LG-SearchBox-ClearIcon {
+    position: absolute !important;
+    right: 8px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
   }
 
   .Bewerber-Web-Responsive-Table {
@@ -429,57 +440,3 @@
     margin-left: 12px !important;
   }
 }
-
-/* .LG-DataTableWidget,
-.LG-DataTableWidget > div:nth-child(3) {
-  height: 3000px !important;
-} */
-
-/* .GK52GLDCEC {
-  scrollbar-width: none !important;
-  -ms-overflow-style: none !important;
-}
-
-.GK52GLDCEC::-webkit-scrollbar {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
-} */
-
-/* .LG-CollapsibleScrollDataTable-MainTable {
-  border-collapse: separate !important;
-  border-spacing: 0 24px !important;
-  width: calc(100% - 4px) !important;
-  margin-left: 2px !important;
-  border:1px solid grey;
-} */
-
-/* .LG-DataTableEvenRow > td.LG-DataTableLastColumn,
-.LG-DataTableOddRow > td.LG-DataTableLastColumn {
-  border-top-right-radius: 24px !important;
-}
-
-.LG-DataTableEvenRow > td.LG-DataTableFirstColumn,
-.LG-DataTableOddRow > td.LG-DataTableFirstColumn {
-  border-bottom-left-radius: 24px !important;
-} */
-
-/* .LG-DataTableEvenRow,
-.LG-DataTableOddRow {
-  position: relative !important;
-} */
-
-/* .LG-DataTableEvenRow > td.LG-DataTableFirstColumn::before,
-.LG-DataTableOddRow > td.LG-DataTableFirstColumn::before {
-  content: "";
-  position: absolute !important;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0px 2px 15px -7px rgba(0, 0, 0, 0.3);
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  z-index: -1;
-  pointer-events: none;
-} */

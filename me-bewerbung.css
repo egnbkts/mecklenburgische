@@ -45,7 +45,7 @@
   display: grid !important;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
-  row-gap: 24px;
+  row-gap: 32px;
 }
 
 .LG-FormBox > tbody > tr {
@@ -138,6 +138,19 @@
   width: 100%;
 }
 
+.LG-FormBox .LG-FileController,
+.LG-FormBox .LG-FileController-Edit,
+.LG-FormBox .LG-FileController-Edit-uploader_mit_dz,
+.LG-FormBox .LG-FileController-Edit-displayer {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.LG-FileController:has(.LG-FileController-ContainingFile)
+  .LG-FileController-Edit-uploader_mit_dz {
+  display: none !important;
+}
+
 .dragdrop-handle {
   display: none !important;
 }
@@ -155,7 +168,7 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
-  min-height: unset !important; /* falls eine feste Höhe vom Original das Padding ignoriert */
+  min-height: unset !important;
   height: auto !important;
   width: fit-content;
   margin-top: 24px;
@@ -163,7 +176,7 @@
 }
 
 .LG-Button.primary .html-face {
-  position: static !important; /* falls original absolut positioniert war, jetzt normal im Flex-Fluss */
+  position: static !important;
   display: flex !important;
   align-items: center;
   justify-content: center;

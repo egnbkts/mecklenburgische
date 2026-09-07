@@ -1,3 +1,14 @@
+.LG-InputLabel.labelPosition-top {
+  display: block !important;
+  margin-bottom: 4px !important;
+}
+
+.LG-TextBox.required {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
 .BW-MainPanel {
   margin: 0 auto !important;
   float: none !important;
@@ -440,3 +451,57 @@
     margin-left: 12px !important;
   }
 }
+
+/* .LG-DataTableWidget,
+.LG-DataTableWidget > div:nth-child(3) {
+  height: 3000px !important;
+} */
+
+/* .GK52GLDCEC {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.GK52GLDCEC::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+} */
+
+/* .LG-CollapsibleScrollDataTable-MainTable {
+  border-collapse: separate !important;
+  border-spacing: 0 24px !important;
+  width: calc(100% - 4px) !important;
+  margin-left: 2px !important;
+  border:1px solid grey;
+} */
+
+/* .LG-DataTableEvenRow > td.LG-DataTableLastColumn,
+.LG-DataTableOddRow > td.LG-DataTableLastColumn {
+  border-top-right-radius: 24px !important;
+}
+
+.LG-DataTableEvenRow > td.LG-DataTableFirstColumn,
+.LG-DataTableOddRow > td.LG-DataTableFirstColumn {
+  border-bottom-left-radius: 24px !important;
+} */
+
+/* .LG-DataTableEvenRow,
+.LG-DataTableOddRow {
+  position: relative !important;
+} */
+
+/* .LG-DataTableEvenRow > td.LG-DataTableFirstColumn::before,
+.LG-DataTableOddRow > td.LG-DataTableFirstColumn::before {
+  content: "";
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 2px 15px -7px rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  z-index: -1;
+  pointer-events: none;
+} */

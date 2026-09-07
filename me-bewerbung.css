@@ -335,7 +335,7 @@
     padding: 12px 16px !important;
     border-bottom: 1px solid #e0e0e0 !important;
     box-sizing: border-box !important;
-       min-height: 200px !important;
+    min-height: 200px !important;
     height: auto !important;
   }
 
@@ -386,13 +386,14 @@
     border-bottom: none !important;
   }
 
+  .LG-SearchBox-Wrapper {
+    height: 42px !important;
+    margin-top: 48px !important;
+  }
+
   .LG-SearchBox-Wrapper .LG-SearchBox {
     height: 42px !important;
     box-sizing: border-box !important;
-  }
-
-  .LG-SearchBox-Wrapper {
-    height: 42px !important;
   }
 
   .Bewerber-Web-Responsive-Table {
